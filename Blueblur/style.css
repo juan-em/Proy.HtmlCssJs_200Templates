@@ -1,0 +1,157 @@
+body {
+background-color:#287279;
+font-size:10pt;
+font-family:Arial;
+margin:0;
+padding:0;
+color:#FFFFFF;
+background-image:url(images/back.png);
+background-repeat:repeat-x;
+}
+
+#body2 {
+background-image:url(images/backfooter.png);
+background-repeat:repeat-x;
+background-position:bottom left;
+}
+
+#page {
+width:900px;
+margin:auto;
+padding:auto;
+background-image:url(images/page.png);
+}
+
+#header {
+clear:both;
+width:870px;
+height:66px;
+background-image:url(images/header.png);
+padding-top:30px;
+padding-left:30px;
+}
+
+#menulinks {
+clear:both;
+width:890px;
+height:64px;
+padding-left:10px;
+background-image:url(images/menulinks.png);
+}
+
+* html #menulinks a { /* Filter for IE6 to prevent li stacking */
+  float: left;
+  text-decoration: none;
+  }
+
+* html #menulinks a span { /* Filter for IE6 to prevent li stacking */
+  float: left;
+  text-decoration: none;
+  }
+  
+#menulinks a {
+	padding-left:21px;
+	height:64px;
+   background-image:none;
+	display:block;
+	color:#FFFFFF;
+	text-decoration:none;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	margin-right:3px;
+	margin-left:3px;
+  }
+
+#menulinks a span {
+	padding-left:8px;
+	padding-right:30px;
+	padding-top:20px;
+	height:44px;
+	display:block;
+   background-image:none;
+	text-decoration:none;
+	cursor:pointer;
+  }
+  
+  
+#menulinks a:hover, #menulinks a.active {
+	background-image:url(images/menuhover.png);
+	background-position:top left;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+#menulinks a:hover span, #menulinks a.active span {
+   background: url(images/menuhoverright.png) right top no-repeat;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+#mainarea {
+width:870px;
+clear:both;
+padding-left:30px;
+}
+
+#contentarea {
+width:550px;
+padding-right:35px;
+float:left;
+line-height:14pt;
+padding-bottom:10px;
+}
+
+#sidebar {
+float:left;
+width:245px;
+line-height:14pt;
+}
+
+#footer {
+width:900px;
+clear:both;
+height:42px;
+padding-top:50px;
+text-align:center;
+line-height:14pt;
+background-image:url(images/footer.png);
+background-repeat:no-repeat;
+color:#FFFFFF;
+}
+
+#footer a {
+color:#FFFFFF;
+}
+
+h1 {
+font-size:20pt;
+color:#FFFFFF;
+margin:0;
+}
+
+h1 a {
+color:#FFFFFF;
+}
+
+h2 {
+font-size:12pt;
+color:#FFFFCC;
+padding-top:6px;
+}
+
+.description {
+font-size:14pt;
+color:#FFFFCC;
+margin:0;
+padding-left:5px;
+}
+
+a {
+color:#FFFFCC;
+text-decoration:none;
+}
+
+a:hover {
+text-decoration:underline;
+}

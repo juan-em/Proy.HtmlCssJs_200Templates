@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Website Traffic</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
+	<meta name="Robots" content="index,follow" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+	<script type="text/javascript">
+	// toggle dynamic divs
+    function toggle(div) {
+    	var elem = document.getElementById(div);
+    	if (elem.style.display=='') {elem.style.display='none'; return;}
+    	elem.style.display='';
+    }
+	</script>
+</head>
+<body>
+	<div id="content">	
+		<div id="header">
+			<div id="logo">
+				<h1>Website Traffic<sup> beta</sup></h1>
+				<p>Donec lacinia tristique ante. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit ultricies nisl.</p>
+			</div>
+	
+			<div id="search">
+				<a onclick="toggle('searchform');">+ SEARCH</a>
+				<div id="searchform" style="display: none;">
+					<form method="post" action="">
+						<p><input class="searchfield" name="search_query" id="keywords" value="Search Keywords" type="text" />
+						<input class="searchbutton" name="submit" value="Search" type="submit" /></p>
+					</form>
+				</div>
+			</div>
+		</div>
+		<ul id="menu">
+			<li><a class="current" href="#">Home</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Speed Test</a></li>
+			<li><a href="#">Accessibility Test</a></li>
+			<li><a href="#">About</a></li>
+			<li><a id="last" href="#">Contact</a></li>	
+		</ul>
+		<div style="clear: both;"></div>
+			
+		<div class="third">
+			<h2>Who we are?</h2>
+			<p>Maecenas libero neque, volutpat sit amet, varius et, pretium quis, purus. Nulla ut magna. Nunc nec dui eget erat vulputate sagittis. Suspendisse fermentum odio. Mauris magna sem, pellentesque sit amet, nonummy vel, nonummy id, velit. Curabitur sodales lacus at massa. In hac habitasse platea dictumst. Aliquam lacus massa, pellentesque sit amet, feugiat et, cursus volutpat. Integer nibh. Maecenas mattis ipsum.</p>
+			<p class="more"><a href="http://www.connectednc.com/">Read More</a></p>
+		</div>
+		<div class="third">
+			<h2>What we do?</h2>
+			<p>Mauris facilisis, quam ut semper adipiscing, magna diam laoreet ante, ac varius massa dolor sit amet augue. Vivamus purus. Integer consequat. Nunc et nunc. Phasellus augue diam, vestibulum non, iaculis eget, tristique sed, lectus. Sed pede. Nullam egestas ante a mauris. Aliquam metus turpis, luctus ac, sagittis eget, elementum tincidunt, massa. Aenean justo nisl, luctus sit amet, malesuada ac, dignissim.</p>
+			<p class="more"><a href="http://www.connectednc.com/">Read More</a></p>
+		</div>
+		<div class="third last">
+			<h2>Get in touch!</h2>
+			<p>Suspendisse egestas fringilla odio. Donec lacinia tristique ante. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit ultricies nisl. Nullam dapibus, mauris id scelerisque feugiat, sapien augue porta ipsum, ut blandit tellus enim vel mauris. Praesent accumsan metus vel ipsum. Maecenas aliquam blandit mi. Pellentesque dolor magna, posuere vel, condimentum id.</p>
+			<p class="more"><a href="http://www.connectednc.com/">Read More</a></p>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+	<div id="prefooter">
+		<p>Powered by <a href="http://www.davismccabe.com" title="Davis&amp;McCabe">Truck Accident Lawyers</a> &middot; Davis &amp; McCabe</p>
+	</div>
+	<div id="footer">
+		<p class="right"><a href="#">Sitemap</a><a href="#">Contact</a></p>
+		<p>© Copyright 2008, <a href="#">Website Traffic</a>, Design: <a href="http://www.solucija.com">Luka Cvrk</a></p>
+	</div>
+</body>
+</html>

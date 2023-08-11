@@ -1,0 +1,31 @@
+*{border: 0; padding: 0; margin: 0;}
+body{background-color: #444343; font-family: Verdana, sans-serif; font-size: 80%;}
+
+h1{font-size: 135%; margin-bottom: 20px; color: rgb(0,112,0);}
+h2{font-size: 120%; margin: 15px 0 15px 0;}
+img{margin: 10px; border: 3px solid rgb(160,160,160)}
+td, th{padding: 5px; }
+tr{border-bottom: 1px solid rgb(192,192,192);}
+th{ color: rgb(0,112,0);}
+table{border: 1px solid rgb(160,160,160);}
+
+.menu{background-color: #282827; margin-top: 7px;}
+.top{margin-top: 15px; background: #282827 url(graphic/tmavy_horni.jpg) top left no-repeat; }
+.bottom{background: #282827 url(graphic/tmavy_dolni.jpg) bottom left no-repeat;}
+.menu ul{list-style-type: none; padding-left: 10px; }
+.menu{color: white; font-weight: none; padding-left: 15px; padding-top: 20px; padding-bottom: 20px;}
+.menu a{color: white; text-decoration: none;}
+.menu a:hover{color: #b3cd21;}
+.menu p{padding-bottom: 6px; margin-left: 10px;}
+.rss li{background: url(graphic/rss.jpg) top left no-repeat; height: 20px;}
+.rss li a{display: block; padding-left: 23px;}
+
+h2#mainh {font-family: Corbel, sans-serif; padding-bottom: 5px; font-size: 140%; margin: 0;}
+#all{width: 840px; margin-left: auto; margin-right: auto;}
+#menu{float: left; width: 170px;}
+#content{float: right; background: #ffffff url(graphic/bily_levy.jpg) bottom left no-repeat; width: 670px; margin-bottom: 30px;}
+#content div{background: url(graphic/bily_pravy.jpg) bottom right no-repeat; width: 650px; padding-top: 15px; padding-left: 10px; padding-right: 10px;}
+#footer{height: 40px; text-align: right; margin: 40px 0 0 0;}
+#footer a{text-decoration: none; color: black;}
+
+

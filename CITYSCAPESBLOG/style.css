@@ -1,0 +1,62 @@
+/* CSS RESET */
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym {border:0;font-variant:normal;}sup {vertical-align:text-top;}sub {vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}legend{color:#000;}
+
+body {font:13px/1.231 arial,helvetica,clean,sans-serif;}table{font-size:inherit;font-size:100%;}pre,code,kbd,samp,tt{font-family:monospace;line-height:100%;}
+/* CSS RESET */
+
+
+
+body {
+	text-align:center;
+	color:#6d6b6e
+}
+a {
+	text-decoration:none;
+	color:#000
+}
+a:hover {
+	text-decoration: underline;
+}
+#wrap {
+	width:900px;
+	text-align:left;
+	margin:0 auto;
+}
+
+.fl{ float:left}
+.fr{ float:right}
+.clearfix{ clear:both}
+
+
+
+/* header */
+#header { background:url(images/hd.jpg); height:273px; position:relative}
+#header h1 {font-size:40px; font-weight:700; position:absolute; left:70px; top:20px;color:#fff}
+.sc{background:url(images/s.gif) no-repeat;height:38px;  width:230px; position:absolute; right:70px; top:20px}
+.q { border:#1D7E9F 1px solid;width:165px; height:25px; position: absolute; top:8px; right:55px; background:#1D7E9F }
+.submit {background:url(images/go.gif) no-repeat; height:39px; width:39px; border:0; position: absolute; top:0px; right:5px; }
+
+#header li{ float:left; padding:0 6px; line-height:1.9em }
+#header ul{  position:absolute; right:30px; top:232px; font-size:11px;border: #0099CC solid; border-width:3px 0}
+#header li a:hover { background:#0099CC; text-decoration:none}
+/* content */
+#content {}
+.side {background:url(images/left.jpg) no-repeat; width:451px;}
+.sinner {width:250px; margin:200px 0 0 150px; font-size:11px}
+.main {background:#F4F5EE; }
+.main h2 {font-size:34px; text-align:right; font-weight:700; margin:20px 0}
+.mainin { padding:20px; width:409px;}
+#bg{ background:url(images/bg.jpg)}
+
+#bg,.main {
+	padding-bottom:300px;
+	margin-bottom:-300px;
+}
+#copyright{ width:250px; height:50px; padding:100px 0 0 150px;}
+#content  {
+	overflow:hidden;
+}
+
+/* footer */
+#copyright {font-size:11px;}
+

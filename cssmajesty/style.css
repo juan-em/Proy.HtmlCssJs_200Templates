@@ -1,0 +1,173 @@
+/* CSS RESET */
+html {
+	color:#000;
+	background:#FFF;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset, img {
+	border:0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style:normal;
+	font-weight:normal;
+}
+li {
+	list-style:none;
+}
+caption, th {
+	text-align:left;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before, q:after {
+	content:'';
+}
+abbr, acronym {
+	border:0;
+	font-variant:normal;
+}
+sup {
+	vertical-align:text-top;
+}
+sub {
+	vertical-align:text-bottom;
+}
+input, textarea, select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+legend {
+	color:#000;
+}
+body {
+	font:13px/1.231 arial, helvetica, clean, sans-serif;
+}
+table {
+	font-size:inherit;
+	font-size:100%;
+}
+pre, code, kbd, samp, tt {
+	font-family:monospace;
+	line-height:100%;
+}
+/* CSS RESET */
+
+
+
+body {
+	text-align:center;
+	background:url(images/bgg.png) repeat-x top
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration: underline;
+}
+#wrap {
+	width:769px;
+	text-align:left;
+	margin:0 auto;
+}
+.fl {
+	float:left
+}
+.fr {
+	float:right
+}
+.clearfix {
+	clear:both
+}
+/* header */
+#header {
+	background:#000 url(images/hd.png) no-repeat bottom;
+	height:183px;
+	width:769px;
+	position:relative
+}
+#logo {
+	position:absolute;
+	top:50px;
+	left:30px
+}
+#logo div {
+	position: relative;
+	top:10px;
+	left:30px
+}
+#logo h1 {
+	font-size:50px;
+	font-weight:700;
+	color:#1C3C9E
+}
+#logo div {
+	font-weight:700
+}
+#header li {
+	float:left;
+	padding:0px 23px;
+	line-height:44px
+}
+#header li.last {
+	padding:0px 0 0 23px;
+}
+#header li a {
+	color:#2eb3ea
+}
+#header ul {
+	background:url(images/nav.gif);
+	position:absolute;
+	right:10px;
+	top:50px;
+	width:304px;
+	height:44px;
+}
+/* content */
+#content {
+	background:url(images/bg.png);
+	padding:15px 0 15px 15px;
+}
+#ct_bg {
+	background:url(images/b.gif) repeat-y
+}
+.main {
+	width:380px;
+	margin:0 0 0 20px
+}
+.main h2 {
+	font-size:36px;
+	margin-bottom:20px;
+}
+.side {
+	width:280px;
+	margin-right:20px
+}
+.si {
+	width:200px;
+	margin:0 auto
+}
+.si img {
+	margin:10px 0
+}
+.col {
+	width:170px;
+	margin:50px 0 0 0
+}
+.col h2 {
+	color:#26ade4;
+	font-size:18px
+}
+.t { background:url(images/t.gif) no-repeat; height:38px}
+/* footer */
+#footer {
+}

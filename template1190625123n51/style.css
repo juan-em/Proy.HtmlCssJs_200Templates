@@ -1,0 +1,277 @@
+#layout
+{
+width:780px;
+height:620px;
+background-color:#FFFFFF;
+margin:0 auto;
+}
+body
+{
+margin:0 auto;
+background-color:#333333;
+}
+#header
+{
+width:780px;
+height:87px;
+margin:0 auto;
+}
+#logo
+{
+float:left;
+width:160px;
+height:87px;
+background-image: url(images/logo.jpg);
+background-repeat:no-repeat;
+}
+#title
+{
+float:right;
+width:620px;
+height:87px;
+background-image: url(images/title.jpg);
+background-repeat:no-repeat;
+}
+#headercont
+{
+width:780px;
+height:176px;
+margin:0 auto;
+}
+#headerimg
+{
+float:right;
+width:622px;
+height:176px;
+background-image: url(images/header.jpg);
+background-repeat:no-repeat;
+}
+#links{
+float:left;
+background-image:url(images/linksbg.jpg);
+width:158px;
+height:176px;
+background-repeat:no-repeat;
+position:relative;
+left:0px;
+top:1px;
+}
+#arrow{
+	background-image:url(images/arrow.jpg);
+	width:8px;
+	height:7px;
+	background-repeat:no-repeat;
+    position: absolute;
+	left:15px;
+	top:13px;
+	}
+	#arrowabout{
+	background-image:url(images/arrow.jpg);
+	width:8px;
+	height:7px;
+	background-repeat:no-repeat;
+	position: absolute;
+	left:15px;
+	top:38px;
+	}
+		#arrowservice{
+	background-image:url(images/arrow.jpg);
+	width:8px;
+	height:7px;
+	background-repeat:no-repeat;
+	position: absolute;
+	left:15px;
+	top:63px;
+	}
+	#arrowprices{
+	background-image:url(images/arrow.jpg);
+	width:8px;
+	height:7px;
+	background-repeat:no-repeat;
+	position: absolute;
+	left:15px;
+	top:89px;
+	}
+	#arrowinformation{
+	background-image:url(images/arrow.jpg);
+	width:8px;
+	height:7px;
+	background-repeat:no-repeat;
+	position: absolute;
+	left:15px;
+	top:116px;
+	}
+	#arrowcontact{
+	background-image:url(images/arrow.jpg);
+	width:8px;
+	height:7px;
+	background-repeat:no-repeat;
+	position: absolute;
+	left:15px;
+	top:140px;
+	}
+#arrow1{
+    float:left;
+	background-image:url(images/arrow1.jpg);
+	
+	
+	width:4px;
+	height:6px;
+	background-repeat:no-repeat;
+	margin-top:20px;
+	margin-left:10px;		
+}
+.linktxt{
+	width:100px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin-left:20px;
+	padding-top:10px;
+	text-decoration: none;
+	
+}
+#container{
+width:780px;
+height:300px;
+margin:auto;
+background-color:#CAC9B5;		
+}
+#left{
+float:left;
+width:358px;
+height:300px;
+background-color:#E7E7D6;
+position:absolute;
+margin-left:0;	
+}
+#ourlegal{
+width:358px;
+height:39px;
+background-image:url(images/our1.jpg);
+background-repeat:no-repeat;	
+}
+#ourprices{
+width:214px;
+height:39px;
+background-image:url(images/our2.jpg);
+background-repeat:no-repeat;	
+}
+#ourinformation{
+width:199px;
+height:39px;
+background-image: url(images/our3.jpg);
+background-repeat:no-repeat;
+}
+#inleft{
+float:left;
+width:163px;
+height:260px;
+}
+#inright{
+float:right;
+width:195px;
+height:260px;
+}
+#center1{
+width:218px;
+height:260px;
+background-color:#DFDED3;
+}
+#incenter{
+width:212px;
+height:260px;
+background-color:#DFDED3;
+}
+#pic1{
+width:142px;
+height:181px;
+background-image:url(images/pic1.jpg);
+background-repeat:no-repeat;
+margin-left:10px;
+margin-top:10px;
+}
+#pic2{
+width:168px;
+height:117px;
+background-image:url(images/pic2.jpg);
+background-repeat:no-repeat;
+margin-left:10px;
+margin-top:25px;
+}
+#center{
+width:212px;
+height:300px;
+position:absolute;
+margin-left:352px;
+top:263px;
+}
+#right{
+float:right;
+width:220px;
+height:300px;
+background-color:#73828C;
+position:absolute;
+margin-left: 560px;
+}
+#inright1{
+float:right;
+width:212px;
+height:260px;
+background-color:#E7E7D6;
+}
+.text{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#68000c;
+	margin-left:10px;
+	text-align:justify;
+	margin-top:20px;
+	margin-right:10px;
+	}
+.text1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	color:#625053;
+	margin-left:10px;
+	margin-right:10px;
+}
+.text2{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	color:#625053;
+	text-align:justify;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:20px;
+}
+.blktxt{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:0f0f0f;
+	font-weight:bold;
+	margin-left:20px;
+	width:180px;
+	margin-top:17px;
+	}
+#line{
+	background-image: url(images/footer.jpg);
+	width:780px;
+	height:4px;
+	background-repeat:no-repeat;
+	margin-top:10px;
+	}
+	.foottxt{
+	width:780px;
+	height:40px;
+	text-align:center;	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#3f2227;
+	font-weight:normal;
+	margin-top:10px;
+	}
